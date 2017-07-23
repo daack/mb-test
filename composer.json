@@ -1,0 +1,26 @@
+{
+    "name": "duck/mb-test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Matteo Maselli",
+            "email": "mat.maselli@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework",
+            "App\\": "App"
+        }
+    },
+    "require": {
+        "messagebird/php-rest-api": "^1.6",
+        "vlucas/phpdotenv": "^2.4",
+        "illuminate/database": "^5.4",
+        "predis/predis": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "mockery/mockery": "^0.9.9"
+    }
+}
